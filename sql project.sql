@@ -1,6 +1,10 @@
+-- create new database called hive
 create database hive;
+
+-- using the hive database
 use hive;
 
+-- check tables were uploaded
 show tables;
 select * from tripdata;
 
